@@ -6,6 +6,9 @@ namespace Emp_Git.Controllers
 {
     public class HomeController : Controller
     {
+        // This is my first GitHub change
+
+
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
