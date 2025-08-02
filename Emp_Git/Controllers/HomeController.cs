@@ -10,6 +10,8 @@ namespace Emp_Git.Controllers
 
         // Testing my new branch
 
+        // "Testing my second branch"
+
 
 
         private readonly ILogger<HomeController> _logger;
@@ -21,7 +23,7 @@ namespace Emp_Git.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return Content("Testing my second branch");
         }
 
         public IActionResult Privacy()
