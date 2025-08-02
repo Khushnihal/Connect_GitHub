@@ -6,13 +6,7 @@ namespace Emp_Git.Controllers
 {
     public class HomeController : Controller
     {
-        // This is my first GitHub change
-
-        // Testing my new branch
-
-        // "Testing my second branch"
-
-
+        // First GitHub Test
 
         private readonly ILogger<HomeController> _logger;
 
