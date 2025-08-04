@@ -17,7 +17,7 @@ namespace Emp_Git.Controllers
 
         public IActionResult Index()
         {
-            return Content("Testing my second branch");
+            return View();
         }
 
         public IActionResult Privacy()
